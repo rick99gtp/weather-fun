@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/green-grass.png'), url('/images/green-grass-field-under-white-clouds-1048039.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.input-container {
+    height: 10vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input {
+    border-radius: 50px;
+    border: 3px solid white;
+    font-size: 32px;
+    background-color: rgba(0,0,0,.1);
+    padding: 10px;
+    text-align: center;
+    outline: none;
+}
